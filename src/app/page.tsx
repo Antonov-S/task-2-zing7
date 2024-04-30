@@ -1,5 +1,11 @@
-import Image from "next/image";
+import Header from "@/components/layouts/header";
+import Homepage from "@/components/layouts/homepage";
 
 export default function Home() {
-  return <main>It works!</main>;
+  return (
+    <main className="container">
+      <Header />
+      <Homepage />
+    </main>
+  );
 }
