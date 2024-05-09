@@ -61,7 +61,8 @@ function Homepage() {
         width={482}
         height={675}
         alt="Large diagram image"
-        className="relative my-5 md:absolute md:top-0 md:bottom-0 md:-right-20 h-auto"
+        className="relative my-5 md:absolute md:top-0 md:bottom-0 md:-right-40 h-auto w-auto"
+        priority
       />
 
       <div className="flex items-center justify-center my-5 md:my-6">

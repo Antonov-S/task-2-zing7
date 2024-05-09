@@ -135,28 +135,37 @@ export default function Footer(props: MainFooterProps) {
         </nav>
       </div>
 
-      <div className="container flex flex-col md:flex-row items-center justify-center mb-[47px] mt-[45px]">
-        <p className="text-[14px] font-normal text-black/90">
+      <div className="flex items-center justify-center">
+        <div className="w-[1360px] mt-[100px] border border-black/10" />
+      </div>
+
+      <div className="container flex flex-col sm:flex-row items-center justify-between mb-4 sm:mb-8 mt-4 sm:mt-8">
+        <p className="text-sm font-normal text-black/90 text-center sm:text-left sm:mr-8 sm:mb-0">
           &copy; Copyright {currentYear}
         </p>
-        <ul className="flex mx-[496px] max-w-[368px] max-h-[17px] items-center justify-center">
+        <ul className="flex flex-col mx-auto sm:mx-0 sm:flex-row sm:max-w-none sm:max-h-none sm:ml-8">
           {footerLinks.map((link, i) => (
-            <li key={i} className="mx-[38px]">
-              <Link href={link.href} target={link.target}>
+            <li key={i} className="my-2 sm:my-0 sm:mx-3">
+              <Link
+                href={link.href}
+                target={link.target}
+                className="text-sm text-black/70 hover:text-black transition-colors duration-300"
+              >
                 {link.name}
               </Link>
             </li>
           ))}
         </ul>
-        <div className="flex flex-row">
+        <div className="flex flex-row items-center mt-4 sm:mt-0 sm:ml-8">
           <Image
             src={LANGUAGE_ICON}
             alt="Language icon"
             width={24}
             height={24}
+            className="mr-2"
           />
-          <p className="flex flex-row">
-            English <FaAngleDown />
+          <p className="text-sm font-normal text-black/90 flex items-center">
+            English <FaAngleDown className="ml-1" />
           </p>
         </div>
       </div>
