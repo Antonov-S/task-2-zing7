@@ -5,6 +5,7 @@ import Image from "next/image";
 import toast from "react-hot-toast";
 
 import {
+  CLIENTS_LOGOS,
   HOME_DIAGRAM,
   HOME_H1_TITLE,
   HOME_P_ADVERTISING_ETXT
@@ -20,22 +21,22 @@ function Homepage() {
     setEmail("");
   }
   return (
-    <section className="container relative flex-col md:flex content-between mx-2.5 md:mx-0 mt-5 md:mt-20 overflow-hidden">
-      <div className="relative">
-        <h1 className="max-w-[642px] md:font-bold font-medium md:leading-[74px] md:tracking-[-0.89px] md:text-[64px] text-xl">
+    <section className="container relative flex-col md:flex md:content-between md:mx-0 md:mt-20">
+      <div className="h-[475px] md:h-[675px]">
+        <h1 className="max-w-[642px] text-[64px] font-bold tracking-[-0.89px] leading-[74px] max-sm:text-[40px] max-sm:leading-[50px]">
           {HOME_H1_TITLE}
         </h1>
-        <p className="max-w-[478px] mt-10 text-sm md:text-lg">
+        <p className="max-w-[378px] md:max-w-[478px] mt-7 md:mt-10 text-sm md:text-lg">
           {HOME_P_ADVERTISING_ETXT}
         </p>
         <form
-          className="mt-[60px] max-w-[457px] w-full h-[72px] relative"
+          className="mt-[30px] md:mt-[60px] max-w-[457px] w-full h-[72px] relative"
           onSubmit={handleSubmit}
         >
           <input
             type="email"
             name="email"
-            className="w-full h-full px-6 rounded-xl border-[#EDEDED] border-[1px] placeholder:text-lg placeholder:font-medium placeholder:text-[#787878]"
+            className="w-full h-full rounded-xl border-[#EDEDED] border-[1px] placeholder:text-lg sm:placeholder:font-medium placeholder:text-[#787878]"
             placeholder="Enter your email"
             value={email}
             onChange={e => {
@@ -48,7 +49,7 @@ function Homepage() {
           </p>
           <Button
             variant={"secondary"}
-            className="!h-[56px] !text-lg !font-bold !rounded-lg !absolute !top-[8px] !right-[8px] max-sm:!static max-sm:!mt-2 max-sm:!w-full"
+            className="relative md:absolute !h-[56px] !text-lg !font-bold !rounded-lg !top-[8px] !right-[8px]"
           >
             Try for Free
           </Button>
@@ -60,8 +61,12 @@ function Homepage() {
         width={482}
         height={675}
         alt="Large diagram image"
-        className="absolute top-[70px] -right-[215px] max-xl:static max-xl:self-center max-sm:mt-[70px]"
+        className="relative my-5 md:absolute md:top-0 md:bottom-0 md:-right-20 h-auto"
       />
+
+      <div className="flex items-center justify-center my-5 md:my-6">
+        <Image src={CLIENTS_LOGOS} alt="Clients logos" />
+      </div>
     </section>
   );
 }

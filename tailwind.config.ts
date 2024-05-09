@@ -11,13 +11,13 @@ const config = {
   prefix: "",
   theme: {
     container: {
+      padding: {
+        DEFAULT: "1rem",
+        xl: "0rem"
+      },
       center: true,
-      padding: "0rem",
       screens: {
-        sm: "1140px",
-        md: "1140px",
-        lg: "1140px",
-        xl: "1140px"
+        sm: "1140px"
       }
     },
     extend: {
