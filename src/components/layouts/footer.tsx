@@ -6,9 +6,10 @@ import { FaAngleDown } from "react-icons/fa";
 import { cn } from "@/lib/utils";
 import {
   FACEBOOK_ICON,
+  FOOTER_LINKS_DATA,
+  FOOTER_SECTIONS_DATA,
   LANGUAGE_ICON,
   LINKEDIN_ICON,
-  NAV_LOGO,
   TWITTER_ICON
 } from "@/lib/constants";
 
@@ -16,56 +17,6 @@ type MainFooterProps = React.DetailedHTMLProps<
   React.HTMLAttributes<HTMLElement>,
   HTMLElement
 > & {};
-
-const sections = [
-  {
-    name: "Company",
-    links: [
-      { name: "About", href: "#", target: "_self" },
-      { name: "Pricing", href: "#", target: "_self" },
-      { name: "Jobs", href: "#", target: "_self" },
-      { name: "Blog", href: "#", target: "_self" },
-      { name: "Careers", href: "#", target: "_self" }
-    ]
-  },
-  {
-    name: "Product",
-    links: [
-      { name: "Sales software", href: "#", target: "_self" },
-      { name: "Features", href: "#", target: "_self" },
-      { name: "Privacy", href: "#", target: "_self" },
-      { name: "Marketplace", href: "#", target: "_self" },
-      { name: "Status", href: "#", target: "_self" },
-      { name: "API", href: "#", target: "_self" }
-    ]
-  },
-  {
-    name: "Discover",
-    links: [
-      { name: "Partner Program", href: "#", target: "_self" },
-      { name: "Get our newsletter", href: "#", target: "_self" },
-      { name: "Sales pipeline", href: "#", target: "_self" },
-      { name: "What is CRM?", href: "#", target: "_self" },
-      { name: "CRM Comparison", href: "#", target: "_self" },
-      { name: "Resources", href: "#", target: "_self" }
-    ]
-  },
-  {
-    name: "Help Center",
-    links: [
-      { name: "Community", href: "#", target: "_self" },
-      { name: "Knowledge Basis", href: "#", target: "_self" },
-      { name: "Academy", href: "#", target: "_self" },
-      { name: "Support", href: "#", target: "_self" }
-    ]
-  }
-];
-
-const footerLinks = [
-  { name: "Terms of Service", href: "#", target: "_self" },
-  { name: "Privacy Policy", href: "#", target: "_self" },
-  { name: "Cookies", href: "#", target: "_self" }
-];
 
 export default function Footer(props: MainFooterProps) {
   const currentYear = new Date().getFullYear();
@@ -111,7 +62,7 @@ export default function Footer(props: MainFooterProps) {
           </address>
         </section>
         <nav className="grid xs:grid-cols-2 gap-4 md:gap-0 md:flex items-start justify-between w-full max-w-[768px]">
-          {sections?.map(section => (
+          {FOOTER_SECTIONS_DATA.map(section => (
             <section
               key={section.name}
               className="flex flex-col text-xs md:text-[14px] md:leading-[34px]"
@@ -144,7 +95,7 @@ export default function Footer(props: MainFooterProps) {
           &copy; Copyright {currentYear}
         </p>
         <ul className="flex flex-col mx-auto sm:mx-0 sm:flex-row sm:max-w-none sm:max-h-none sm:ml-8">
-          {footerLinks.map((link, i) => (
+          {FOOTER_LINKS_DATA.map((link, i) => (
             <li key={i} className="my-2 sm:my-0 sm:mx-3">
               <Link
                 href={link.href}

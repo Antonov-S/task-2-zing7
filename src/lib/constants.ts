@@ -5,6 +5,9 @@ import twitter from "../../public/twitter.png";
 import facebook from "../../public/facebook.png";
 import linkedin from "../../public/linkedin.png";
 import ic_language from "../../public/ic_language.png";
+import face from "../../public/face.png";
+import laptop from "../../public/laptop.png";
+import wand from "../../public/wand.png";
 
 export const NAV_LOGO = roooby;
 export const HOME_DIAGRAM = diagram;
@@ -48,3 +51,77 @@ export const HOME_H1_TITLE =
 
 export const HOME_P_ADVERTISING_ETXT =
   "An awesome & powefull tools for your business, incease business revenue with enterprise-grade links build to acquire and engage customers.";
+
+export const BENEFITS_DATA = [
+  {
+    id: 1,
+    icon: face,
+    heading: "Lead customers to happiness",
+    description:
+      "Rooody Support helps you provide personalized support when and where customers need it, so customers stay happy."
+  },
+  {
+    id: 2,
+    icon: laptop,
+    heading: "Support your support",
+    description:
+      "Productive agents are happy agents. Give them all the support tools and information they need to best serve your customers."
+  },
+  {
+    id: 3,
+    icon: wand,
+    heading: "Grow without growing pains",
+    description:
+      "Our software is powerful enough to handle the most complex business, yet flexible enough to scale with you as you grow."
+  }
+];
+
+export const FOOTER_SECTIONS_DATA = [
+  {
+    name: "Company",
+    links: [
+      { name: "About", href: "#", target: "_self" },
+      { name: "Pricing", href: "#", target: "_self" },
+      { name: "Jobs", href: "#", target: "_self" },
+      { name: "Blog", href: "#", target: "_self" },
+      { name: "Careers", href: "#", target: "_self" }
+    ]
+  },
+  {
+    name: "Product",
+    links: [
+      { name: "Sales software", href: "#", target: "_self" },
+      { name: "Features", href: "#", target: "_self" },
+      { name: "Privacy", href: "#", target: "_self" },
+      { name: "Marketplace", href: "#", target: "_self" },
+      { name: "Status", href: "#", target: "_self" },
+      { name: "API", href: "#", target: "_self" }
+    ]
+  },
+  {
+    name: "Discover",
+    links: [
+      { name: "Partner Program", href: "#", target: "_self" },
+      { name: "Get our newsletter", href: "#", target: "_self" },
+      { name: "Sales pipeline", href: "#", target: "_self" },
+      { name: "What is CRM?", href: "#", target: "_self" },
+      { name: "CRM Comparison", href: "#", target: "_self" },
+      { name: "Resources", href: "#", target: "_self" }
+    ]
+  },
+  {
+    name: "Help Center",
+    links: [
+      { name: "Community", href: "#", target: "_self" },
+      { name: "Knowledge Basis", href: "#", target: "_self" },
+      { name: "Academy", href: "#", target: "_self" },
+      { name: "Support", href: "#", target: "_self" }
+    ]
+  }
+];
+
+export const FOOTER_LINKS_DATA = [
+  { name: "Terms of Service", href: "#", target: "_self" },
+  { name: "Privacy Policy", href: "#", target: "_self" },
+  { name: "Cookies", href: "#", target: "_self" }
+];
