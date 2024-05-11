@@ -22,7 +22,8 @@ const config = {
     },
     extend: {
       colors: {
-        accent: "#150050"
+        accent: "#150050",
+        yellow: "#FFE377"
       },
       keyframes: {
         "accordion-down": {

@@ -49,7 +49,7 @@ function Homepage() {
           </p>
           <Button
             variant={"secondary"}
-            className="relative md:absolute !h-[56px] !text-lg !font-bold !rounded-lg !top-[8px] !right-[8px]"
+            className="absolute !h-[56px] !text-lg !font-bold !rounded-lg !top-[8px] !right-[8px]"
           >
             Try for Free
           </Button>
@@ -61,7 +61,7 @@ function Homepage() {
         width={482}
         height={675}
         alt="Large diagram image"
-        className="relative my-5 md:absolute md:top-0 md:bottom-0 md:-right-40 h-auto w-auto"
+        className="static my-5 md:absolute md:top-0 md:bottom-0 md:-right-40 h-auto w-auto"
         priority
       />
 
