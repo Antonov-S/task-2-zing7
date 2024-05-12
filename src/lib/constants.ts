@@ -11,6 +11,7 @@ import wand from "../../public/wand.png";
 import info_pic_1 from "../../public/info_pic_1.svg";
 import info_pic_2 from "../../public/info_pic_2.svg";
 import info_pic_3 from "../../public/info_pic_3.svg";
+import check from "../../public/check.svg";
 
 export const NAV_LOGO = roooby;
 export const HOME_DIAGRAM = diagram;
@@ -22,6 +23,7 @@ export const LANGUAGE_ICON = ic_language;
 export const INFO_PIC_1 = info_pic_1;
 export const INFO_PIC_2 = info_pic_2;
 export const INFO_PIC_3 = info_pic_3;
+export const CHECK_ICON = check;
 
 export const NAV_MENU_ITEMS = [
   { name: "Product", path: "/products" },
@@ -132,7 +134,7 @@ export const FOOTER_LINKS_DATA = [
   { name: "Cookies", href: "#", target: "_self" }
 ];
 
-export const info = [
+export const INFO_DATA = [
   {
     id: 1,
     tag: "sales",

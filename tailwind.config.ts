@@ -23,7 +23,15 @@ const config = {
     extend: {
       colors: {
         accent: "#150050",
-        yellow: "#FFE377"
+        yellow: "#FFE377",
+        green: "#00CC61",
+        "gray-custom": {
+          100: "#DCDCDC",
+          200: "#777777",
+          300: "#787878",
+          500: "#404040",
+          600: "#3B3A40"
+        }
       },
       keyframes: {
         "accordion-down": {
