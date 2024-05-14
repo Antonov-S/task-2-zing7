@@ -24,6 +24,8 @@ import integration_icon_9 from "../../public/integration_icon_9.png";
 import integration_icon_10 from "../../public/integration_icon_10.png";
 import news_image_1 from "../../public/news_image_1.png";
 import news_image_2 from "../../public/news_image_2.png";
+import results_smal_oval_image_1 from "../../public/results_smal_oval_image_1.png";
+import results_smal_oval_image_2 from "../../public/results_smal_oval_image_2.png";
 
 export const NAV_LOGO = roooby;
 export const HOME_DIAGRAM = diagram;
@@ -218,5 +220,30 @@ export const NEWS_DATA = [
     title: "What Makes an Authentic Employee Profile, and Why Does It Matter?",
     date: "07 Sep 2023",
     author: "Ivan Neshev"
+  }
+];
+
+export const RESULTS_DATA = [
+  {
+    title: "$2.5 M",
+    subTitle: "Generate sales",
+    description:
+      "Using Кирилица CRM is one of the best decisions we’ve ever made. We’ve seen our annual revenue explode, and the outlook just keeps getting sunnier.",
+    author: {
+      image: "/images/nellie-foster.png",
+      name: "Nellie Foster",
+      position: "Founder & CEO, Foster Business Strategies"
+    }
+  },
+  {
+    title: "45%",
+    subTitle: "Grew revenue",
+    description:
+      "Yoora is created for sales people. It’s the kind of software that just works. I don’t have to try to make it work. It already does. It’s just perfect.",
+    author: {
+      image: "/images/lawrence-gibbs.png",
+      name: "Lawrence Gibbs",
+      position: "Marketing Director"
+    }
   }
 ];
