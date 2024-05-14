@@ -3,7 +3,7 @@ import BenefitCard from "../ui/benefit-card";
 
 function Benefits() {
   return (
-    <section className="w-screen shadow-[0_0_0_100vh_#150050] [clip-path:inset(0_-100vmax)]">
+    <section className="shadow-[0_0_0_100vh_#150050] [clip-path:inset(0_-100vmax)]">
       <div className="col-span-full grid grid-cols-12 bg-accent p-4 pt-16 lg:py-32">
         <div className="text-3xl font-bold lg:text-5xl col-start-1 col-end-13 mb-8 text-center text-white sm:col-start-3 sm:col-end-11 lg:text-start xl:col-start-2 xl:col-end-7">
           <h2 className="leading-tight">

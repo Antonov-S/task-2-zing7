@@ -21,7 +21,7 @@ function Homepage() {
     setEmail("");
   }
   return (
-    <section className="container relative flex-col md:flex md:content-between md:mx-0 md:mt-20">
+    <section className="container relative flex-col items-center md:flex md:content-between md:mx-0 md:mt-20">
       <div className="h-[475px] md:h-[675px]">
         <h1 className="max-w-[642px] text-[64px] font-bold tracking-[-0.89px] leading-[74px] max-sm:text-[40px] max-sm:leading-[50px]">
           {HOME_H1_TITLE}
@@ -61,7 +61,7 @@ function Homepage() {
         width={482}
         height={675}
         alt="Large diagram image"
-        className="static my-5 md:absolute md:top-0 md:bottom-0 md:-right-40 h-auto w-auto"
+        className="static my-5 md:absolute md:top-0 md:bottom-0 md:-right-80 h-auto w-auto"
         priority
       />
 

@@ -12,6 +12,16 @@ import info_pic_1 from "../../public/info_pic_1.svg";
 import info_pic_2 from "../../public/info_pic_2.svg";
 import info_pic_3 from "../../public/info_pic_3.svg";
 import check from "../../public/check.svg";
+import integration_icon_1 from "../../public/integration_icon_1.png";
+import integration_icon_2 from "../../public/integration_icon_2.png";
+import integration_icon_3 from "../../public/integration_icon_3.png";
+import integration_icon_4 from "../../public/integration_icon_4.png";
+import integration_icon_5 from "../../public/integration_icon_5.png";
+import integration_icon_6 from "../../public/integration_icon_6.png";
+import integration_icon_7 from "../../public/integration_icon_7.png";
+import integration_icon_8 from "../../public/integration_icon_8.png";
+import integration_icon_9 from "../../public/integration_icon_9.png";
+import integration_icon_10 from "../../public/integration_icon_10.png";
 
 export const NAV_LOGO = roooby;
 export const HOME_DIAGRAM = diagram;
@@ -175,4 +185,17 @@ export const INFO_DATA = [
     ],
     image: INFO_PIC_3
   }
+];
+
+export const INTEGRATIONS_DATA = [
+  { image: integration_icon_1, width: 120 },
+  { image: integration_icon_2, width: 288 },
+  { image: integration_icon_3, width: 288 },
+  { image: integration_icon_4, width: 120 },
+  { image: integration_icon_5, width: 288 },
+  { image: integration_icon_6, width: 372 },
+  { image: integration_icon_7, width: 120 },
+  { image: integration_icon_8, width: 120 },
+  { image: integration_icon_9, width: 372 },
+  { image: integration_icon_10, width: 120 }
 ];
