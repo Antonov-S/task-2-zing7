@@ -31,3 +31,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+// bg-[#E5E8EC]`

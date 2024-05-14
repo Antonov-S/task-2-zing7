@@ -22,6 +22,8 @@ import integration_icon_7 from "../../public/integration_icon_7.png";
 import integration_icon_8 from "../../public/integration_icon_8.png";
 import integration_icon_9 from "../../public/integration_icon_9.png";
 import integration_icon_10 from "../../public/integration_icon_10.png";
+import news_image_1 from "../../public/news_image_1.png";
+import news_image_2 from "../../public/news_image_2.png";
 
 export const NAV_LOGO = roooby;
 export const HOME_DIAGRAM = diagram;
@@ -198,4 +200,23 @@ export const INTEGRATIONS_DATA = [
   { image: integration_icon_8, width: 120 },
   { image: integration_icon_9, width: 372 },
   { image: integration_icon_10, width: 120 }
+];
+
+export const NEWS_DATA = [
+  {
+    id: 1,
+    tag: "service",
+    image: news_image_1,
+    title: "How To Deliver a Successful Product Launch",
+    date: "05 Sep 2024",
+    author: "Joshua Nash"
+  },
+  {
+    id: 2,
+    tag: "service",
+    image: news_image_2,
+    title: "What Makes an Authentic Employee Profile, and Why Does It Matter?",
+    date: "07 Sep 2023",
+    author: "Ivan Neshev"
+  }
 ];
