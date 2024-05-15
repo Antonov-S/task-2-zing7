@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Integrations() {
   return (
-    <section className="shadow-[0_0_0_100vh_#150050] [clip-path:inset(0_-100vmax)] py-24 md:py-32 px-4">
+    <section className="shadow-[0_0_0_100vh_#F4F4F4] [clip-path:inset(0_-100vmax)] py-24 md:py-32 px-4">
       <div className="w-full mx-auto text-center">
         <h3 className="text-5xl leading-[68px] tracking-[-0.67px] font-bold mb-4">
           Over 300+ integrations

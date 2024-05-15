@@ -26,6 +26,10 @@ import news_image_1 from "../../public/news_image_1.png";
 import news_image_2 from "../../public/news_image_2.png";
 import results_smal_oval_image_1 from "../../public/results_smal_oval_image_1.png";
 import results_smal_oval_image_2 from "../../public/results_smal_oval_image_2.png";
+import testimonials_smal_oval_image_1 from "../../public/testimonials_smal_oval_image_1.png";
+import testimonials_smal_oval_image_2 from "../../public/testimonials_smal_oval_image_2.png";
+import testimonials_smal_oval_image_3 from "../../public/testimonials_smal_oval_image_3.png";
+import quotes from "../../public/quotes.png";
 
 export const NAV_LOGO = roooby;
 export const HOME_DIAGRAM = diagram;
@@ -38,6 +42,7 @@ export const INFO_PIC_1 = info_pic_1;
 export const INFO_PIC_2 = info_pic_2;
 export const INFO_PIC_3 = info_pic_3;
 export const CHECK_ICON = check;
+export const QUOTES_ICON = quotes;
 
 export const NAV_MENU_ITEMS = [
   { name: "Product", path: "/products" },
@@ -244,6 +249,33 @@ export const RESULTS_DATA = [
       image: results_smal_oval_image_2,
       name: "Lawrence Gibbs",
       position: "Marketing Director"
+    }
+  }
+];
+
+export const TESTIMONIALS_DATA = [
+  {
+    text: "The best thing we love about Yoora is it does two-way sync with Google Apps. It has helped us to better organize and keep everything on track.",
+    author: {
+      image: testimonials_smal_oval_image_1,
+      name: "Lola Ross",
+      position: "Marketing Director"
+    }
+  },
+  {
+    text: "It has made our sales department more effective and efficient. It’s easy to use and it’s constantly updated. It’s easy to use and it’s constantly updated.",
+    author: {
+      image: testimonials_smal_oval_image_2,
+      name: "Daisy Phelps",
+      position: "Speaker and Author, Lifeiseasy"
+    }
+  },
+  {
+    text: "Easy to use, reasonably priced, and ensures I don’t drop the ball on following up with my leads!",
+    author: {
+      image: testimonials_smal_oval_image_3,
+      name: "Andrew Wilkins",
+      position: "Managing Director, Nirma Studio"
     }
   }
 ];
