@@ -33,6 +33,9 @@ const config = {
           600: "#3B3A40"
         }
       },
+      backgroundImage: {
+        bg: "url('/bg.svg')"
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

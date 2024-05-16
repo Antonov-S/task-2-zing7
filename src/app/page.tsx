@@ -4,6 +4,7 @@ import Info from "@/components/layouts/info";
 import Integrations from "@/components/layouts/integrations";
 import News from "@/components/layouts/news";
 import Results from "@/components/layouts/results";
+import Supercharge from "@/components/layouts/supercharge";
 import Testimonials from "@/components/layouts/testimonials";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <News />
       <Results />
       <Testimonials />
+      <Supercharge />
     </main>
   );
 }
