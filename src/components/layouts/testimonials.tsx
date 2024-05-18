@@ -4,7 +4,7 @@ import TestimonialCard from "../ui/testimonial-card";
 
 function Testimonials() {
   return (
-    <section className="shadow-[0_0_0_100vh_#F4F4F4] [clip-path:inset(0_-100vmax)] py-24 md:py-32">
+    <section className="w-full bg-smoke py-24 md:py-32">
       <div className="container px-4 mx-auto">
         <div className="flex justify-between items-baseline pb-16">
           <h3 className="font-bold text-3xl tracking-[0.69px] sm:text-[48px] sm:leading-[58px] sm:tracking-[0.67px] md:max-w-[570px] pb-2">

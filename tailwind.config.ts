@@ -25,6 +25,8 @@ const config = {
         accent: "#150050",
         yellow: "#FFE377",
         green: "#00CC61",
+        bgGreen: "#EBFBF3",
+        smoke: "#F4F4F4",
         "gray-custom": {
           100: "#DCDCDC",
           200: "#777777",

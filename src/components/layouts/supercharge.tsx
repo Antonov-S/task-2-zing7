@@ -1,6 +1,6 @@
 function Supercharge() {
   return (
-    <section className="w-full scroll md:py-28 bg-bg bg-cover bg-no-repeat bg-center">
+    <section className="w-full max-h-[468px] scroll md:py-28 bg-bg bg-cover bg-no-repeat bg-center">
       <div className="flex flex-col gap-8 md:gap-0  md:flex-row justify-around items-center ">
         <div>
           <h2 className="text-white text-3xl md:text-6xl font-bold leading-tight text-center  pt-10 md:pt-22">

@@ -27,7 +27,7 @@ function NavMenu({ toggleMobile, isMobuleMenuOpen }: NavMenuProps) {
           <NavButtonGroup />
         </>
       ) : (
-        <div className="fixed right-3 top-0 z-50 flex h-screen w-screen flex-col justify-center gap-16 bg-black/80 text-white hover:text-white/10 ps-10 transition-all">
+        <div className="fixed right-0 top-0 z-50 flex h-screen w-screen flex-col justify-center gap-16 bg-black/80 text-white hover:text-white/10 ps-10 transition-all">
           <IoMdClose
             className="absolute right-4 top-5 cursor-pointer text-4xl"
             onClick={toggleMobile}
