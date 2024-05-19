@@ -1,6 +1,6 @@
-function Supercharge() {
+function PriceSupercharge() {
   return (
-    <section className="w-full max-h-[468px] scroll md:py-28 bg-bg bg-cover bg-no-repeat bg-center">
+    <section className="w-full max-h-[468px] md:py-28 bg-bgAccent bg-cover bg-no-repeat bg-center">
       <div className="flex flex-col gap-8 md:gap-0  md:flex-row justify-around items-center ">
         <div>
           <h2 className="text-white text-3xl md:text-6xl font-bold leading-tight text-center  pt-10 md:pt-22">
@@ -15,7 +15,7 @@ function Supercharge() {
           </p>
         </div>
         <div className="flex flex-col items-center gap-4 pb-10 md:pb-0  md:pt-30 md:pr-12">
-          <button className="flex items-center space-x-2 bg-white text-black font-bold hover:text-black hover:bg-yellow py-4 px-10 rounded-lg">
+          <button className="flex items-center space-x-2 bg-white text-black font-bold hover:text-white hover:bg-yellow py-4 px-10 rounded-lg">
             <span className="text-center">Try for Free</span>
             <span>&gt;</span>
           </button>
@@ -28,4 +28,4 @@ function Supercharge() {
   );
 }
 
-export default Supercharge;
+export default PriceSupercharge;

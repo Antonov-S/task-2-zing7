@@ -25,7 +25,7 @@ function PrisingHero() {
           ))}
         </div>
         <hr className="md:mt-24 mb-7 my-4 border-gray" />
-        <div className="flex flex-col items-center mx-auto md:items-center gap-5 md:flex-row  md:gap-6 mb-24 md:mb-32">
+        <div className="flex flex-col items-center mx-auto md:items-center gap-5 md:flex-row  md:gap-6 mb-24 md:mb-[120px]">
           <h2 className="text-black  text-xl md:text-3xl font-bold">
             Need help choosing the right plan?
           </h2>

@@ -36,7 +36,8 @@ const config = {
         }
       },
       backgroundImage: {
-        bg: "url('/bg.svg')"
+        bg: "url('/bg.svg')",
+        bgAccent: "url('/bg-accent.svg')"
       },
       keyframes: {
         "accordion-down": {

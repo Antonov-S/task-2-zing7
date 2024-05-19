@@ -337,3 +337,36 @@ export const PRISING_DATA = [
     ]
   }
 ];
+
+export const FQA_DATA = [
+  {
+    question: "How Does Roooby CRM Compare To The Competition?",
+    answer:
+      "Rooby CRM offers the most affordable, comprehensive platform to manage the entire customer journey, from generating leads, to closing deals and supporting your customers. With a full suite of CRM, sales enablement, marketing automation, and help desk/customer support capabilities, it’s all you need to manage the entire customer lifecycle. Most of our competitors offer one or two of these functions as separate products, leaving you with the headache of integrating them and increasing.",
+    isOpen: false
+  },
+  {
+    question: "Can I Change Plans Or Cancel My Subscription At Any Time?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque reiciendis voluptates ex velit rerum repellendus, accusantium libero nisi! Voluptatum ipsum dolores placeat hic illum sequi amet aspernatur minus culpa quia?",
+    isOpen: false
+  },
+  {
+    question: "How Secure Is My Data With Roooby CRM?",
+    answer:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit earum odit necessitatibus aut dicta? Mollitia modi culpa dolorum voluptates debitis facere architecto voluptatum dolor magni quaerat dolores impedit iusto vel eveniet, consectetur officiis quos tenetur ipsa amet rerum fugit unde nobis. Aliquam earum doloribus vitae provident? Tempore officia animi unde!",
+    isOpen: false
+  },
+  {
+    question: "What Is The Uptime Guarantee?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta reiciendis deleniti tenetur earum autem error magnam ea numquam sit! Ipsam aspernatur asperiores incidunt. Beatae vero rerum odio unde atque vitae provident, iste iusto facere eaque repellendus labore? Iure nostrum odit esse aut nisi, sapiente maxime aspernatur beatae ullam? Esse possimus incidunt repellendus expedita repudiandae porro veritatis modi enim atque obcaecati.",
+    isOpen: false
+  },
+  {
+    question: "How Can I Add More Emails To My Account?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ducimus aliquid quam commodi ea quis, voluptas ab quae quaerat iste cum error consectetur in suscipit amet veniam obcaecati modi! Voluptates ratione quidem eaque tenetur, voluptatum quasi voluptatibus quam dignissimos, placeat, nemo ut fuga iusto ducimus.",
+    isOpen: false
+  }
+];

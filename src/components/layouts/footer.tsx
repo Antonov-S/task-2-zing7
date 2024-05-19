@@ -21,10 +21,7 @@ type MainFooterProps = React.DetailedHTMLProps<
 export default function Footer(props: MainFooterProps) {
   const currentYear = new Date().getFullYear();
   return (
-    <footer
-      {...props}
-      className={cn("border-t py-2 mt-[120px]", props?.className)}
-    >
+    <footer {...props} className={cn("py-2 mt-[120px]", props?.className)}>
       <div className="container flex md:flex-row flex-col justify-between">
         <section>
           <Link href={"/"} className="font-black text-[25px] leading-[28px]">
