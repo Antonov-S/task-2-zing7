@@ -48,7 +48,7 @@ export const NAV_MENU_ITEMS = [
   { name: "Product", path: "/products" },
   { name: "Pricing", path: "/pricing" },
   { name: "Company", path: "/company" },
-  { name: "Resources", path: "/resources" },
+  { name: "Blog", path: "/blog" },
   { name: "Contact", path: "/contact" }
 ];
 
@@ -369,4 +369,13 @@ export const FQA_DATA = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ducimus aliquid quam commodi ea quis, voluptas ab quae quaerat iste cum error consectetur in suscipit amet veniam obcaecati modi! Voluptates ratione quidem eaque tenetur, voluptatum quasi voluptatibus quam dignissimos, placeat, nemo ut fuga iusto ducimus.",
     isOpen: false
   }
+];
+
+export const BLOG_HERO_MENU_ITEMS = [
+  "All Articles",
+  "Sales",
+  "Marketing",
+  "Service",
+  "Product",
+  "News"
 ];
