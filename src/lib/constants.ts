@@ -30,6 +30,7 @@ import testimonials_smal_oval_image_1 from "../../public/testimonials_smal_oval_
 import testimonials_smal_oval_image_2 from "../../public/testimonials_smal_oval_image_2.png";
 import testimonials_smal_oval_image_3 from "../../public/testimonials_smal_oval_image_3.png";
 import quotes from "../../public/quotes.png";
+import blog_marketing_main_image from "../../public/blog_marketing_main_image.png";
 
 export const NAV_LOGO = roooby;
 export const HOME_DIAGRAM = diagram;
@@ -43,6 +44,7 @@ export const INFO_PIC_2 = info_pic_2;
 export const INFO_PIC_3 = info_pic_3;
 export const CHECK_ICON = check;
 export const QUOTES_ICON = quotes;
+export const BLOG_MARKETING_MAIN_IMAGE = blog_marketing_main_image;
 
 export const NAV_MENU_ITEMS = [
   { name: "Product", path: "/products" },

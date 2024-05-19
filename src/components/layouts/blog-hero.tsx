@@ -2,7 +2,7 @@ import { BLOG_HERO_MENU_ITEMS } from "@/lib/constants";
 
 function BlogHero() {
   return (
-    <section className="w-full bg-smoke py-24 md:py-32">
+    <section className="w-full bg-smoke pt-24 md:pt-32">
       <div className="container px-4 mx-auto">
         <div className="flex flex-col justify-between items-baseline pb-16">
           <div>
