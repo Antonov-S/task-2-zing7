@@ -31,6 +31,7 @@ import testimonials_smal_oval_image_2 from "../../public/testimonials_smal_oval_
 import testimonials_smal_oval_image_3 from "../../public/testimonials_smal_oval_image_3.png";
 import quotes from "../../public/quotes.png";
 import blog_marketing_main_image from "../../public/blog_marketing_main_image.png";
+import blog_marketing_second_image from "../../public/blog_marketing_second_image.png";
 
 export const NAV_LOGO = roooby;
 export const HOME_DIAGRAM = diagram;
@@ -45,6 +46,7 @@ export const INFO_PIC_3 = info_pic_3;
 export const CHECK_ICON = check;
 export const QUOTES_ICON = quotes;
 export const BLOG_MARKETING_MAIN_IMAGE = blog_marketing_main_image;
+export const BLOG_MARKETING_SECOND_IMAGE = blog_marketing_second_image;
 
 export const NAV_MENU_ITEMS = [
   { name: "Product", path: "/products" },
@@ -381,3 +383,5 @@ export const BLOG_HERO_MENU_ITEMS = [
   "Product",
   "News"
 ];
+
+export const JSON_PLACEHOLDER_API_URL = "https://jsonplaceholder.typicode.com";
