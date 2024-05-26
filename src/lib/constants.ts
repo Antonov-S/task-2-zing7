@@ -33,6 +33,12 @@ import quotes from "../../public/quotes.png";
 import blog_marketing_main_image from "../../public/blog_marketing_main_image.png";
 import blog_marketing_second_image from "../../public/blog_marketing_second_image.png";
 import avatar from "../../public/avatar.png";
+import contacts_map from "../../public/contacts_map.png";
+import amazon_logo from "../../public/amazon_logo.png";
+import walmart_logo from "../../public/walmart_logo.png";
+import canon_logo from "../../public/canon_logo.png";
+import atlassian_logo from "../../public/atlassian_logo.png";
+import google_logo from "../../public/google_logo.png";
 
 export const NAV_LOGO = roooby;
 export const HOME_DIAGRAM = diagram;
@@ -49,6 +55,7 @@ export const QUOTES_ICON = quotes;
 export const BLOG_MARKETING_MAIN_IMAGE = blog_marketing_main_image;
 export const BLOG_MARKETING_SECOND_IMAGE = blog_marketing_second_image;
 export const AVATAR_IMAGE = avatar;
+export const CONTACTS_MAP_IMAGE = contacts_map;
 
 export const NAV_MENU_ITEMS = [
   { name: "Product", path: "/products" },
@@ -387,3 +394,11 @@ export const BLOG_HERO_MENU_ITEMS = [
 ];
 
 export const JSON_PLACEHOLDER_API_URL = "https://jsonplaceholder.typicode.com";
+
+export const CLIENTS_AND_PARTNERS_LOGOS = [
+  { image: google_logo, width: 97.21 },
+  { image: atlassian_logo, width: 135.88 },
+  { image: canon_logo, width: 95.63 },
+  { image: walmart_logo, width: 129.86 },
+  { image: amazon_logo, width: 95.03 }
+];

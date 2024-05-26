@@ -21,9 +21,9 @@ type MainFooterProps = React.DetailedHTMLProps<
 export default function Footer(props: MainFooterProps) {
   const currentYear = new Date().getFullYear();
   return (
-    <footer {...props} className={cn("py-2 mt-[120px]", props?.className)}>
+    <footer {...props} className={cn("py-2 md:mt-[120px]", props?.className)}>
       <div className="container flex md:flex-row flex-col justify-between">
-        <section>
+        <section className="hidden md:block">
           <Link href={"/"} className="font-black text-[25px] leading-[28px]">
             Roooby
           </Link>
@@ -33,7 +33,7 @@ export default function Footer(props: MainFooterProps) {
               Our team created a fully integrated <br />
               sales and marketing solution for SMBs
             </p>
-            <div className="flex my-6 max-w-[104px]">
+            <div className="flex my-3 md:my-6 max-w-[104px]">
               <Image
                 src={TWITTER_ICON}
                 alt="Twitter logo"
@@ -58,7 +58,7 @@ export default function Footer(props: MainFooterProps) {
             </div>
           </address>
         </section>
-        <nav className="grid xs:grid-cols-2 gap-4 md:gap-0 md:flex items-start justify-between w-full max-w-[768px]">
+        <nav className="hidden xs:grid xs:grid-cols-2 gap-4 md:gap-0 md:flex items-start justify-between w-full max-w-[768px]">
           {FOOTER_SECTIONS_DATA.map(section => (
             <section
               key={section.name}

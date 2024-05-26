@@ -50,10 +50,10 @@ function BlogPosts({ users, photos, posts }: BlogPostsProps) {
                     "bg-primary text-white dark:bg-white dark:text-primary hover:opacity-60 active:opacity-20"
                   )}
                   href={`/blog/${post.id}`}
-                >
-                  View post
-                </Link>
-                <span className="text-base font-bold">{post.date}, </span>{" "}
+                ></Link>
+                <span className="text-base font-bold text-left">
+                  {post.date},{" "}
+                </span>{" "}
                 <span>
                   <Link href={`/user/${author?.id}`}>
                     <address className="text-sm">

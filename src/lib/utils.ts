@@ -64,3 +64,36 @@ export function getDate() {
   const year = date.getFullYear();
   return `${day} ${month} ${year}`;
 }
+
+export async function getPost(slug: string) {
+  const postResponse = await fetch(`${JSON_PLACEHOLDER_API_URL}/posts/${slug}`);
+  let post = (await postResponse.json()) as JSONPlaceholder.Post;
+
+  return post;
+}
+
+export async function getComments(slug: string) {
+  const commentsResponse = await fetch(
+    `${JSON_PLACEHOLDER_API_URL}/posts/${slug}/comments`
+  );
+  const comments =
+    (await commentsResponse?.json()) as JSONPlaceholder.Comment[];
+
+  return comments;
+}
+
+export async function getAuthor(userId: number) {
+  const authorResponse = await fetch(
+    `${JSON_PLACEHOLDER_API_URL}/users/${userId}`
+  );
+  const author = (await authorResponse?.json()) as JSONPlaceholder.User;
+  return author;
+}
+
+export async function getPhoto(postId: number) {
+  const imageResponse = await fetch(
+    `${JSON_PLACEHOLDER_API_URL}/photos/${postId}`
+  );
+  const photo = (await imageResponse?.json()) as JSONPlaceholder.Photo;
+  return photo;
+}
