@@ -39,6 +39,7 @@ import walmart_logo from "../../public/walmart_logo.png";
 import canon_logo from "../../public/canon_logo.png";
 import atlassian_logo from "../../public/atlassian_logo.png";
 import google_logo from "../../public/google_logo.png";
+import under_construction_image from "../../public/under_construction_image.jpg";
 
 export const NAV_LOGO = roooby;
 export const HOME_DIAGRAM = diagram;
@@ -56,6 +57,7 @@ export const BLOG_MARKETING_MAIN_IMAGE = blog_marketing_main_image;
 export const BLOG_MARKETING_SECOND_IMAGE = blog_marketing_second_image;
 export const AVATAR_IMAGE = avatar;
 export const CONTACTS_MAP_IMAGE = contacts_map;
+export const UNDER_CONSTRUCTION_IMAGE = under_construction_image;
 
 export const NAV_MENU_ITEMS = [
   { name: "Product", path: "/products" },

@@ -39,21 +39,21 @@ export default function Footer(props: MainFooterProps) {
                 alt="Twitter logo"
                 width={24}
                 height={24}
-                className="mr-4 w-6 h-6"
+                className="mr-4 w-6 h-6 transform hover:scale-150"
               />
               <Image
                 src={FACEBOOK_ICON}
                 alt="Facebook logo"
                 width={24}
                 height={24}
-                className="mx-4 w-6 h-6"
+                className="mx-4 w-6 h-6 transform hover:scale-150"
               />
               <Image
                 src={LINKEDIN_ICON}
                 alt="Linkedin logo"
                 width={24}
                 height={24}
-                className="mx-4 w-6 h-6"
+                className="mx-4 w-6 h-6 transform hover:scale-150"
               />
             </div>
           </address>

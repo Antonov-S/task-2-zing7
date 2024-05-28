@@ -132,7 +132,7 @@ const ContactForm = () => {
               Our clients and partners:
             </span>
             <span>
-              <ul className="flex flex-col md:flex-row gap-y-8 md:gap-x-16 mt-6">
+              <ul className="flex flex-col md:flex-row gap-y-8 md:gap-x-16 mt-6 items-center justify-center">
                 {CLIENTS_AND_PARTNERS_LOGOS.map((logo, index) => (
                   <li key={index}>
                     <Image
