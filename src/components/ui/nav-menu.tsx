@@ -34,10 +34,8 @@ function NavMenu({ toggleMobile, isMobuleMenuOpen }: NavMenuProps) {
           />
           <ul className="flex flex-col items-center justify-center gap-6">
             {NAV_MOBILE_MENU.map((item, i) => (
-              <Link href={item.path}>
-                <Button key={i} variant="ghost">
-                  {item.name}
-                </Button>
+              <Link key={i} href={item.path}>
+                <Button variant="ghost">{item.name}</Button>
               </Link>
             ))}
           </ul>

@@ -1,11 +1,11 @@
-import Benefits from "@/components/layouts/benefits";
-import Homepage from "@/components/layouts/homepage";
-import Info from "@/components/layouts/info";
-import Integrations from "@/components/layouts/integrations";
-import News from "@/components/layouts/news";
-import Results from "@/components/layouts/results";
-import Supercharge from "@/components/layouts/supercharge";
-import Testimonials from "@/components/layouts/testimonials";
+import Benefits from "@/components/layouts/home-benefits";
+import Homepage from "@/components/layouts/home-hero";
+import Info from "@/components/layouts/home-info";
+import Integrations from "@/components/layouts/home-integrations";
+import News from "@/components/layouts/home-news";
+import Results from "@/components/layouts/home-results";
+import Supercharge from "@/components/layouts/home-supercharge";
+import Testimonials from "@/components/layouts/home-testimonials";
 
 export default function Home() {
   return (

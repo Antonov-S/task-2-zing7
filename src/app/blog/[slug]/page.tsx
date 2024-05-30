@@ -77,7 +77,10 @@ async function BlogDetails(props: BlogDetailsProps) {
             </h2>
             <ul className="flex flex-col items-center space-y-4">
               {comments?.map(comment => (
-                <li className="flex flex-col w-full text-left body">
+                <li
+                  key={comment.id}
+                  className="flex flex-col w-full text-left body"
+                >
                   <address>
                     {comment.email} ·{" "}
                     <time className=" text-xs">

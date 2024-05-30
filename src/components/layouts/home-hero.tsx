@@ -5,12 +5,14 @@ import Image from "next/image";
 import toast from "react-hot-toast";
 
 import {
+  CLIENTS_AND_PARTNERS_LOGOS,
   CLIENTS_LOGOS,
   HOME_DIAGRAM,
   HOME_H1_TITLE,
   HOME_P_ADVERTISING_ETXT
 } from "@/lib/constants";
 import { Button } from "../ui/button";
+import { cn } from "@/lib/utils";
 
 function Homepage() {
   const [email, setEmail] = useState("");
@@ -66,8 +68,25 @@ function Homepage() {
           priority
         />
 
-        <div className="flex items-center justify-center my-5 md:my-6">
-          <Image src={CLIENTS_LOGOS} alt="Clients logos" />
+        <div className="flex flex-col md:flex-row items-center justify-between md:my-24">
+          <span className="font-medium text-base md:tracking-tight">
+            Trusted by 1,000+ customers
+          </span>
+          <span>
+            <ul className="flex flex-col md:flex-row gap-y-8 md:gap-x-16 mt-6 items-center justify-center">
+              {CLIENTS_AND_PARTNERS_LOGOS.map((logo, index) => (
+                <li key={index}>
+                  <Image
+                    src={logo.image}
+                    alt="Logo image"
+                    width={logo.width}
+                    priority
+                    className={cn("h-auto", `w-[${logo.width}px]`)}
+                  />
+                </li>
+              ))}
+            </ul>
+          </span>
         </div>
       </div>
     </section>

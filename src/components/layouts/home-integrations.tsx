@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Integrations() {
   return (
-    <section className="w-full bg-smoke py-24 md:py-32 px-4">
+    <section className="w-full bg-smoke py-6 md:py-10 px-4 md:mb-16">
       <div className="w-full mx-auto text-center">
         <h3 className="text-5xl leading-[68px] tracking-[-0.67px] font-bold mb-4">
           Over 300+ integrations
@@ -14,14 +14,17 @@ function Integrations() {
         </p>
         <div className="flex flex-wrap gap-2 mb-16 max-w-[1140px] mx-auto justify-center">
           {INTEGRATIONS_DATA.map((item, index) => (
-            <div key={index} className="h-[120px] w-auto flex justify-center">
+            <div
+              key={index}
+              className="w-full h-[120px] md:w-auto flex justify-center"
+            >
               <Image
                 src={item.image}
                 alt="/"
                 height={120}
                 width={item.width}
                 style={{ objectFit: "cover" }}
-                className="w-auto"
+                className="w-full md:w-auto h-[120px] object-cover"
               />
             </div>
           ))}

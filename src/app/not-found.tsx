@@ -31,7 +31,7 @@ export default function NotFound() {
       <div className="bg-smoke container mx-auto py-8 px-4 sm:px-8">
         <h1 className="text-4xl md:text-7xl font-bold mb-4 md:pb-14">
           <br />
-          We'll Be Back Soon
+          We&apos;ll Be Back Soon
           <br />A little more patience...
         </h1>
         <div className="flex flex-col md:flex-row md:space-x-20">
@@ -85,7 +85,7 @@ export default function NotFound() {
                 <button
                   type="button"
                   onClick={handleSubmit}
-                  className="flex items-left w-full md:!w-2/4 bg-green text-white font-bold hover:text-white hover:bg-accent py-4 px-3 rounded-lg"
+                  className="flex items-left w-full md:!w-2/4 bg-accent text-white font-bold hover:text-white hover:bg-green py-4 px-3 rounded-lg"
                 >
                   Notify Me
                 </button>

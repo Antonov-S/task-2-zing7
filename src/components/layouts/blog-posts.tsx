@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import { cn, getDate } from "@/lib/utils";
 import { BlogProps } from "@/types/types";
+import Image from "next/image";
 
 type BlogPostsProps = {
   users: JSONPlaceholder.User[];
@@ -30,7 +31,7 @@ function BlogPosts({ users, photos, posts }: BlogPostsProps) {
               href={`/blog/${post.id}`}
               className="w-full min-h-[241px] overflow-hidden"
             >
-              <img
+              <Image
                 loading="lazy"
                 className="w-full h-[241px] object-cover group-hover:scale-110 transition-all"
                 src={photo.thumbnailUrl}
