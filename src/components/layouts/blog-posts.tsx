@@ -2,7 +2,6 @@ import Link from "next/link";
 
 import { cn, getDate } from "@/lib/utils";
 import { BlogProps } from "@/types/types";
-import Image from "next/image";
 
 type BlogPostsProps = {
   users: JSONPlaceholder.User[];
@@ -31,7 +30,7 @@ function BlogPosts({ users, photos, posts }: BlogPostsProps) {
               href={`/blog/${post.id}`}
               className="w-full min-h-[241px] overflow-hidden"
             >
-              <Image
+              <img
                 loading="lazy"
                 className="w-full h-[241px] object-cover group-hover:scale-110 transition-all"
                 src={photo.thumbnailUrl}
@@ -44,14 +43,7 @@ function BlogPosts({ users, photos, posts }: BlogPostsProps) {
               </h2>
               {/* <p className="line-clamp-2 body mb-4">{post.body}</p> */}
 
-              <footer className="mt-auto flex flex-row items-center justify-between">
-                <Link
-                  className={cn(
-                    "mt-auto p-2 rounded-md w-fit",
-                    "bg-primary text-white dark:bg-white dark:text-primary hover:opacity-60 active:opacity-20"
-                  )}
-                  href={`/blog/${post.id}`}
-                ></Link>
+              <footer className="mt-auto flex flex-row items-start justify-between">
                 <span className="text-base font-bold text-left">
                   {post.date},{" "}
                 </span>{" "}
