@@ -387,12 +387,12 @@ export const FQA_DATA = [
 ];
 
 export const BLOG_HERO_MENU_ITEMS = [
-  "All Articles",
-  "Sales",
-  "Marketing",
-  "Service",
-  "Product",
-  "News"
+  { name: "ALL POSTS", path: "/blogs" },
+  { name: "Sales", path: "/blogs/sales" },
+  { name: "Marketing", path: "/blogs/marketing" },
+  { name: "Service", path: "/blogs/service" },
+  { name: "Product", path: "/blogs/product" },
+  { name: "News", path: "/blogs/news" }
 ];
 
 export const JSON_PLACEHOLDER_API_URL = "https://jsonplaceholder.typicode.com";
