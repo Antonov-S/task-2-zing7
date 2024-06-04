@@ -12,19 +12,18 @@ function Integrations() {
           Expand the capabilities of <span className="font-bold">Roooby</span>{" "}
           with hundreds of apps and integrations
         </p>
-        <div className="flex flex-wrap gap-2 mb-16 max-w-[1140px] mx-auto justify-center">
+        <div className="flex flex-wrap gap-2 mb-16 max-w-[1140px] mx-auto md:justify-center">
           {INTEGRATIONS_DATA.map((item, index) => (
             <div
               key={index}
-              className="w-full h-[120px] md:w-auto flex justify-center"
+              className="w-[372px] h-[120px] bg-white object-contain md:w-auto flex justify-center"
             >
               <Image
                 src={item.image}
                 alt="/"
                 height={120}
                 width={item.width}
-                style={{ objectFit: "cover" }}
-                className="w-full md:w-auto h-[120px] object-cover"
+                className="w-full md:w-auto h-auto md:h-[120px] object-contain"
               />
             </div>
           ))}

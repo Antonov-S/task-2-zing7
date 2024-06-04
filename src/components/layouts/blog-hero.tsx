@@ -17,11 +17,8 @@ function BlogHero() {
           <div className="pt-12 md:pt-24 mx-auto md:mx-0">
             <ul className="flex md:flex-row md:justify-around flex-col md:flex-wrap">
               {BLOG_HERO_MENU_ITEMS.map((item, index) => (
-                <Link href={item.path}>
-                  <li
-                    key={index}
-                    className="text-black text-md pb-4 font-semibold cursor-pointer hover:underline underline-offset-8 decoration-2 decoration-green md:w-auto w-full md:px-4 text-center"
-                  >
+                <Link href={item.path} key={index}>
+                  <li className="text-black text-md pb-4 font-semibold cursor-pointer hover:underline underline-offset-8 decoration-2 decoration-green md:w-auto w-full md:px-4 text-center">
                     {item.name}
                   </li>
                 </Link>
